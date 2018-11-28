@@ -18,5 +18,5 @@
 
     - name: Synchronize content to remote webserver
       synchronize:
-        src: writing_playbooks/resources/
+        src: ../resources/
         dest: /var/www/html/ 
